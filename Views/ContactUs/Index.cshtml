@@ -1,0 +1,81 @@
+﻿@{
+    ViewData["Index"] = "";
+}
+<h1>@ViewData["Index"]</h1>
+
+<head>
+    <link rel="stylesheet" a href="/css/design.css">
+
+</head>
+<div class="jumbotron text-center" style=" background-color:#e1d6cf">
+    <img src="~/lib/image/logo.png" class="text-md-center" width="230" height="200" />
+    <h1> Contact Us</h1>
+    <h3><i>Project Care: To Care is To Share.</i></h3>
+    <meta name="viewport" content="width=device-width" />
+</div>
+<body style="background-color: #f7f2ef">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #c4aca5;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="~/Home/Index">Home <span class="sr-only">(current)</span></a>
+            </div>
+        </div>
+    </nav>
+
+    <br />
+
+    <div class="container">
+
+        <div>
+
+            <section>
+                <blockquote class="blockquote text-right">
+                    <center>
+                    <p>
+                        We would love to get in touch with you! For any concern/s, you can send your messages to our
+                        <a href="https://mail.google.com/mail/u/0/?fs=1&to=projectcareph@gmail.com&su=Concerns&body=BODY&bcc=someone.else@example.com&tf=cm">Gmail</a>
+                        and we will get back to you within the day.
+
+                        Thank you.
+
+                    </p>
+                    </center>
+
+
+                </blockquote>
+
+            </section>
+            <center>
+                <form action="submit" style="background-color:#e1d6cf">
+
+                    <label for="name">Name: </label><br>
+                    <input type="text" id="fname" name="fname" value=" " required><br><br>
+
+                    <label for="contactno">Contact Number: </label><br>
+                    <input type="text" id="lname" name="lname" value=" " required><br><br>
+
+                    <label for="email">Email Address:</label><br>
+                    <input type="text" id="lname" name="lname" value=" "><br><br>
+
+                    <label for="orderno">Order Number: </label><br>
+                    <input type="text" id="lname" name="lname" value=" "><br><br>
+
+                    <label for="concern">Concern: </label><br>
+                    <textarea id="lname" name="lname" value=" " required> </textarea><br><br>
+
+                    <div class="form-group">
+                        <input type="submit" value="Submit" class="btn btn-success" />
+                    </div>
+
+                </form>
+
+            </center>
+
+        </div>
+    </div>
+
+
+</body>
